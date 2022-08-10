@@ -3,10 +3,41 @@ html, body{
     height: 100%;
 }
 
-.bkg{
+.bkg_01{
     width: 100%;
     height: 100%;
-    background-image: url("../img/bkg_img2.jpg");
+    background-image: url("../img/bkg_full.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.bkg_dot{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/dot_small.png");
+    
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    
+}
+.contents{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.contents_name{
+    font-size: 72px;
+    
+}
+.contents_intro{
+    font-size: 72px;
+}
+.menu_list{
+    font-size: 12px;
 }
