@@ -9,6 +9,8 @@ html, body{
     background-image: url("../img/bkg_full.jpg");
     background-size: cover;
     background-position: center;
+    position: absolute;
+    top: 0; 
 }
 
 .bkg_dot{
@@ -23,7 +25,11 @@ html, body{
 }
 .contents{
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    /*231 165.5 / 197*/
+    margin-top: -165px;
+    margin-left: -231px;
     z-index: 20;
     color: white;
     font-weight: bold;
@@ -32,24 +38,39 @@ html, body{
     
 }
 .contents_name{
-    font-size: 72px;
+    font-size: 46px;
+    margin-bottom: 20px;
     
 }
 .contents_intro{
-    font-size: 72px;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 80px;
 }
 
-.menu_list{
-    font-size: 12px;
+.contents_menu{
+    margin-left: -20px
 }
 .menu_list > li {
-    font-size: 25px;
+    font-size: 0px;
     display: inline-block;
     border: 2px solid white;
     border-radius: 30%;
-    width : 50px;
-    height: 50px;
+    width : 70px;
+    height: 70px;
+    margin-right: 10px;
+    line-height: 50px;
 }
 .menu_list > li > a {
     color: inherit;
+}
+.menu_list > li > a > i {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.menu_list > li > a > i > p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
 }
